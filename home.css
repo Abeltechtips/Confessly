@@ -1,0 +1,200 @@
+header {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    position: relative;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar button i {
+    font-size: 16px;
+    color: #999;
+  }
+
+  .hero {
+    background-image: url('vecteezy_minimalist-dark-gradient-wave-background-simple-design-for_7718309.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Or use a contrasting color */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold; /* Add bold weight for emphasis */
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5; /* Adjust line height for better readability */
+  }
+  
+  .btn {
+    /* ... your button styles ... */
+    background-color: #f95959;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .featured-confessions {
+  margin-bottom: 40px;
+}
+
+.confession-grid {
+    
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.confession-card {
+    
+  background-color: #c4bcbc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.confession-card h3 {
+    
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.confession-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f95959;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.recent-confessions {
+  margin-bottom: 40px;
+}
+
+.confession-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.confession-card {
+  background-color: #5a585807;
+  border-radius: 10px;
+  box-shadow: 5px 8px 15px rgba(7, 7, 7, 0.1);
+  padding: 20px;
+}
+
+.confession-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.confession-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f95959;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.categories {
+    margin-bottom: 40px;
+  }
+  
+  .categories ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .categories li {
+    margin: 10px;
+  }
+  
+  .categories a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f95959;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fcfcfc;
+  }
+  
+  .categories a:hover {
+    background-color: #fffefe;
+    color: #050505;
+  }

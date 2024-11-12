@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Confessly - User Profile</title>
+  <link rel="stylesheet" href="user_profile.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="confessions.html">Confessions</a></li>
+          <li class="active"><a href="user_profile.html">Profile</a></li>
+          <li><a href="logout.php">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <script src="script.js"></script>
+</body>
+<section class="profile-section">
+    <div class="profile-picture">
+      <img src="user-avatar.png" alt="Profile Picture">
+      <button class="upload-photo">Upload Photo</button>
+    </div>
+    <div class="profile-info">
+      <h2>Username: @your_username</h2>
+      <p>Email: youremail@example.com</p>
+      <p>Joined: 2024-11-10</p>
+      <button class="edit-profile">Edit Profile</button>
+    </div>
+  </section>
+  <section class="user-confessions">
+    <h2>Your Confessions</h2>
+    <ul class="confession-list">
+      <li>
+        <p>Confession 1: ...</p>
+        <div class="confession-actions">
+          <a href="edit_confession.php?id=1">Edit</a>
+          <a href="delete_confession.php?id=1">Delete</a>
+        </div>
+      </li>
+      <li>
+        <p>Confession 2: ...</p>
+        <div class="confession-actions">
+          <a href="edit_confession.php?id=2">Edit</a>
+          <a href="delete_confession.php?id=2">Delete</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Confessly</p>
+  </footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script1.js"></script>
+
+</html>
